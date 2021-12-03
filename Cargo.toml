@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "env_rs",
+    "env_derive"
+]
