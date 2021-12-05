@@ -11,6 +11,9 @@ use crate::env::Env;
 
 #[proc_macro_derive(FromEnv, attributes(env))]
 pub fn derive(input: TokenStream) -> TokenStream {
-    let env: Env = Env::from_derive_input(&parse_macro_input!(input as DeriveInput)).unwrap();
-    env.expand().unwrap_or_else(|e| e.to_compile_error()).into()
+    Env::from_derive_input(&parse_macro_input!(input as DeriveInput))
+        .unwrap()
+        .expand()
+        .unwrap_or_else(|e| e.to_compile_error())
+        .into()
 }
