@@ -2,10 +2,15 @@
 name = "env_rs"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "env_rs is a simple lib that parses environment variable values to struct."
+documentation = "https://docs.rs/env_rs"
+homepage = "https://github.com/bestgopher/env-rs"
+repository = "https://github.com/bestgopher/env-rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
 name = "env_rs"
 
 [dependencies]
-env_derive = { path = "../env_derive" }
+env_derive = { path = "../env_derive", version = "0.1.0"}

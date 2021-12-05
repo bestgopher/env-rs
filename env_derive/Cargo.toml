@@ -2,6 +2,10 @@
 name = "env_derive"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "env_derive is macro of env_rs."
+homepage = "https://github.com/bestgopher/env-rs"
+repository = "https://github.com/bestgopher/env-rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
