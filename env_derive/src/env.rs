@@ -1,11 +1,7 @@
 use crate::field::Field;
 use crate::utils;
 
-use darling::{
-    ast::{Data},
-    util::Ignored,
-    FromDeriveInput,
-};
+use darling::{ast::Data, util::Ignored, FromDeriveInput};
 use proc_macro2::TokenStream as TokenStream2;
 use quote::{quote, ToTokens};
 use syn::Result as SynResult;
