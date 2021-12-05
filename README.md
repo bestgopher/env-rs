@@ -1,5 +1,6 @@
-# env-rs
-Simple lib to parse envs to struct in rust.
+# env-rs(WIP)
+Simple lib to parse environment variable values to struct in rust.
+(for learning proc marco!!)
 
 # usage
 ```rust
